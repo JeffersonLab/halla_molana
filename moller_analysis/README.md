@@ -1,6 +1,8 @@
 # __MOLANA Analysis (2020 version)__
 Repository for **MOLANA** Analysis code. This code is to be used in conjunction with Don Jones' **MOLANA** [raw data decoder](https://github.com/jonesdc76/moller_analyser). This version of the code is intended to be used with a persistent database that maintains prompt results.
 
+> All of the wrappers for the ROOT/C++ analysis scripts are written in Bash. I believe this is the best route from a readability standpoint; the ROOT/C++ code should be reasonably familiar to anyone using this and the Bash wrapper should be easily readible by anyone familiar with Linux OS's. The other route, perhaps with some benefit as far as constructing a GUI, could be Python. --Eric King
+
 ## How to use run\_molana\_analysis.sh
 The sript *run_molana_analysis.sh* works out all the required coordination between ROOT macros, bash scripts and MOLANA decoder program.
 
